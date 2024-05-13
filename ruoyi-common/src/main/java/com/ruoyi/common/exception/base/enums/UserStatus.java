@@ -1,8 +1,8 @@
-package com.ruoyi.common.enums;
+package com.ruoyi.common.exception.base.enums;
 
 /**
  * 用户状态
- * 
+ *
  * @author ruoyi
  */
 public enum UserStatus

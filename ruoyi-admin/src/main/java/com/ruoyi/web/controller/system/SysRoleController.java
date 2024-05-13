@@ -21,7 +21,7 @@ import com.ruoyi.common.core.domain.entity.SysRole;
 import com.ruoyi.common.core.domain.entity.SysUser;
 import com.ruoyi.common.core.domain.model.LoginUser;
 import com.ruoyi.common.core.page.TableDataInfo;
-import com.ruoyi.common.enums.BusinessType;
+import com.ruoyi.common.exception.base.enums.BusinessType;
 import com.ruoyi.common.utils.StringUtils;
 import com.ruoyi.common.utils.poi.ExcelUtil;
 import com.ruoyi.framework.web.service.SysPermissionService;
@@ -33,7 +33,7 @@ import com.ruoyi.system.service.ISysUserService;
 
 /**
  * 角色信息
- * 
+ *
  * @author ruoyi
  */
 @RestController
@@ -125,7 +125,7 @@ public class SysRoleController extends BaseController
             return error("修改角色'" + role.getRoleName() + "'失败，角色权限已存在");
         }
         role.setUpdateBy(getUsername());
-        
+
         if (roleService.updateRole(role) > 0)
         {
             // 更新缓存用户权限

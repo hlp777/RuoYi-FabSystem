@@ -1,8 +1,8 @@
-package com.ruoyi.common.enums;
+package com.ruoyi.common.exception.base.enums;
 
 /**
  * 操作人类别
- * 
+ *
  * @author ruoyi
  */
 public enum OperatorType

@@ -9,7 +9,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import com.ruoyi.common.core.domain.entity.SysUser;
 import com.ruoyi.common.core.domain.model.LoginUser;
-import com.ruoyi.common.enums.UserStatus;
+import com.ruoyi.common.exception.base.enums.UserStatus;
 import com.ruoyi.common.exception.ServiceException;
 import com.ruoyi.common.utils.MessageUtils;
 import com.ruoyi.common.utils.StringUtils;
@@ -27,7 +27,7 @@ public class UserDetailsServiceImpl implements UserDetailsService
 
     @Autowired
     private ISysUserService userService;
-    
+
     @Autowired
     private SysPasswordService passwordService;
 

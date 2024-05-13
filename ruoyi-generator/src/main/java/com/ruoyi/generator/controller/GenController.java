@@ -27,7 +27,7 @@ import com.ruoyi.common.core.controller.BaseController;
 import com.ruoyi.common.core.domain.AjaxResult;
 import com.ruoyi.common.core.page.TableDataInfo;
 import com.ruoyi.common.core.text.Convert;
-import com.ruoyi.common.enums.BusinessType;
+import com.ruoyi.common.exception.base.enums.BusinessType;
 import com.ruoyi.common.utils.SecurityUtils;
 import com.ruoyi.common.utils.sql.SqlUtil;
 import com.ruoyi.generator.domain.GenTable;
@@ -37,7 +37,7 @@ import com.ruoyi.generator.service.IGenTableService;
 
 /**
  * 代码生成 操作处理
- * 
+ *
  * @author ruoyi
  */
 @RestController

@@ -1,4 +1,4 @@
-package com.ruoyi.common.enums;
+package com.ruoyi.common.exception.base.enums;
 
 import java.util.function.Function;
 import com.ruoyi.common.utils.DesensitizedUtil;

@@ -20,8 +20,8 @@ import com.alibaba.fastjson2.JSON;
 import com.ruoyi.common.annotation.Log;
 import com.ruoyi.common.core.domain.entity.SysUser;
 import com.ruoyi.common.core.domain.model.LoginUser;
-import com.ruoyi.common.enums.BusinessStatus;
-import com.ruoyi.common.enums.HttpMethod;
+import com.ruoyi.common.exception.base.enums.BusinessStatus;
+import com.ruoyi.common.exception.base.enums.HttpMethod;
 import com.ruoyi.common.filter.PropertyPreExcludeFilter;
 import com.ruoyi.common.utils.SecurityUtils;
 import com.ruoyi.common.utils.ServletUtils;
@@ -33,7 +33,7 @@ import com.ruoyi.system.domain.SysOperLog;
 
 /**
  * 操作日志记录处理
- * 
+ *
  * @author ruoyi
  */
 @Aspect
@@ -70,7 +70,7 @@ public class LogAspect
 
     /**
      * 拦截异常操作
-     * 
+     *
      * @param joinPoint 切点
      * @param e 异常
      */
@@ -136,7 +136,7 @@ public class LogAspect
 
     /**
      * 获取注解中对方法的描述信息 用于Controller层注解
-     * 
+     *
      * @param log 日志
      * @param operLog 操作日志
      * @throws Exception
@@ -164,7 +164,7 @@ public class LogAspect
 
     /**
      * 获取请求的参数，放到log中
-     * 
+     *
      * @param operLog 操作日志
      * @throws Exception 异常
      */
@@ -220,7 +220,7 @@ public class LogAspect
 
     /**
      * 判断是否需要过滤的对象。
-     * 
+     *
      * @param o 对象信息。
      * @return 如果是需要过滤的对象，则返回true；否则返回false。
      */

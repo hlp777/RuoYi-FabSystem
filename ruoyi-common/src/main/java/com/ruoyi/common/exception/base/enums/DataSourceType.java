@@ -1,8 +1,8 @@
-package com.ruoyi.common.enums;
+package com.ruoyi.common.exception.base.enums;
 
 /**
  * 数据源
- * 
+ *
  * @author ruoyi
  */
 public enum DataSourceType

@@ -6,11 +6,11 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 import com.ruoyi.common.constant.CacheConstants;
-import com.ruoyi.common.enums.LimitType;
+import com.ruoyi.common.exception.base.enums.LimitType;
 
 /**
  * 限流注解
- * 
+ *
  * @author ruoyi
  */
 @Target(ElementType.METHOD)
