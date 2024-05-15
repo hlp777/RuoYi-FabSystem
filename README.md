@@ -1,3 +1,10 @@
 # RuoYi-FabSystem
 
-## Fabric system is developed based on the second development of RuoYi
+### Project profile
+
+**Fabric system is developed based on the second development of RuoYi**
+
+### Main function
+
+**Personnel management**
+**Fabric management**
