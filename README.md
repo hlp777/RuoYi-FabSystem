@@ -6,7 +6,7 @@
 
 ### Main function (Tentative)
 
-- **Personnel management**
-- **Fabric management**
-- **Equipment management**
-- **System setting**
+- **1.Personnel management**
+- **2.Fabric management**
+- **3.Equipment management**
+- **4.System setting**
