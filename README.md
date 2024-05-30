@@ -4,7 +4,7 @@
 
 **Fabric system is developed based on the second development of RuoYi**
 
-### Main function
+### Main function (Tentative)
 
 - **Personnel management**
 - **Fabric management**
